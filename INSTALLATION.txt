@@ -1,0 +1,79 @@
+===============================================
+REAL TIME STANCER - INSTALLATION INSTRUCTIONS
+===============================================
+
+REQUIREMENTS:
+-------------
+- Assetto Corsa (any version)
+- Custom Shaders Patch (CSP) 0.1.80 or higher
+- Content Manager (recommended but not required)
+
+INSTALLATION STEPS:
+------------------
+
+1. LOCATE YOUR ASSETTO CORSA FOLDER
+   Default locations:
+   - Steam: C:\Program Files (x86)\Steam\steamapps\common\assettocorsa
+   - Other: Your custom installation directory
+
+2. COPY THE FILES
+   Copy the entire "content" folder from this archive to your Assetto Corsa directory.
+
+   If asked to merge folders, select "Yes" or "Merge"
+
+   Final structure should be:
+
+   [Your AC Folder]\content\apps\lua\RealTimeStancer\
+   ├── app.lua
+   ├── config_presets.json
+   ├── icon.png
+   ├── manifest.ini
+   └── ui\
+       └── layout.ini
+
+3. VERIFY CSP VERSION
+   - Open Content Manager
+   - Go to Settings > Custom Shaders Patch
+   - Check version is 0.1.80 or higher
+   - If not, update CSP from: https://acstuff.ru/patch/
+
+4. LAUNCH ASSETTO CORSA
+   - Start the game with CSP enabled
+   - Load into any track with a car (not showroom)
+   - Click the app menu (icon on right side of screen)
+   - Enable "Real Time Stancer"
+
+5. START USING
+   - The app window will appear on screen
+   - Select a wheel and adjust parameters
+   - Changes apply in real-time!
+
+TROUBLESHOOTING:
+---------------
+
+Problem: App doesn't show up in the menu
+Solution:
+  - Verify CSP is enabled in Content Manager
+  - Check CSP version is 0.1.80+
+  - Restart Assetto Corsa
+
+Problem: No visual changes when adjusting
+Solution:
+  - Some cars may not support all modifications
+  - Try a different car
+  - Increase slider values for more visible effect
+
+Problem: Presets won't save
+Solution:
+  - Check folder permissions
+  - Run game as administrator
+  - Manually create config_presets.json if missing
+
+UNINSTALLATION:
+--------------
+Simply delete the folder:
+[Your AC Folder]\content\apps\lua\RealTimeStancer\
+
+===============================================
+For support, visit the official AC modding forums
+===============================================
